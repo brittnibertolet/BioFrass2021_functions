@@ -1,29 +1,17 @@
 ### Challenge 1:
 
-# Create the function
-lakeTemp<- function(lakeID, depth){   # Define inputs
-  
-  # Read in csv
-  # Subset to only rows where depth == depth
-  # Calculate mean temperature
-  # Create dataframe
-  
-  # Return dataframe to user
-}
-
+# In the data directory, you will find 5 csv (comma-separated values) files. 
+# Each file corresponds to water temperature data from a different lake at UNDERC, 
+# where the LakeID corresponds to the two letter ID in the file name. Write a 
+# custom function to calculate the average water temperature of each lake at some 
+# depth. We want to use this function for multiple different lakes and different
+# depths, so write the function so that the LakeID and depth are passed as 
+# arguments. Return a dataframe with one row and three columns.
 
 ### Challenge 2:
 
-# Create the function
-lakeTemp<- function(dir, depth){   # Define inputs
-  # Get vector of every file in the directory
-  # Create your output dataframe 
-  # Use a for loop to loop through every file
-  # Read in file for the ith lake
-  # Subset to only rows where depth == depth
-  # Calculate mean temperature
-  # Create row
-  # Add the row to the bottom of the output
-  # Return dataframe to user
-}
+# Modify your custom function from Challenge 1 to calculate the average water 
+# temperature of every lake in the data directory. Hint 1: Pass the directory 
+# name as an argument. Hint 2: Use a for loop to loop through every lake in the 
+# directory.
 
