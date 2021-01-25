@@ -2,5 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
 
-code/solutions_2021-01-29
+code/solutions_2021-01-29.R
