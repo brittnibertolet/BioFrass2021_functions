@@ -44,7 +44,7 @@ lakeTempDir <- function(dir, depth){
   
   for(i in 1:length(files)){
     # Read in csv
-    data=read.csv(paste("data/", files[i], sep=""), stringsAsFactors = F)
+    data=read.csv(paste(dir, files[i], sep=""), stringsAsFactors = F)
     # Subset the data to certain depth
     data=data[data$depthTop==depth,]
     
@@ -61,5 +61,5 @@ lakeTempDir <- function(dir, depth){
   return(output)
 }
 
-lakeTempDir(dir="data", depth=0)
+lakeTempDir(dir="data/", depth=0)
 
